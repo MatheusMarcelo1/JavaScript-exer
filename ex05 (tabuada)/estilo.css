@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(102, 109, 69);
+    font: normal 15pt Arial;
+
+}
+header{
+    color: white;
+    text-align:center; /*centraliza o texto*/
+
+
+}
+
+section{
+    text-align: center; /*Alinha o texto dentro da div no centro*/
+    background-color: rgb(255, 255, 255); /*define a cor de fundo da div*/
+    border-radius: 10px;  /*configuração da borda, define o radio para arrendodamento da borda*/
+    padding: 15px;        /*Define o espaço entre o conteudo da div e suas bordas*/
+    width: 800px; /*largura da div*/
+    margin: auto;    /*centraliza a div horinzontalmente na tela*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555); /*sombras na caixa, largura, altura*/
+
+
+}
+
+footer{
+    color: white;
+    text-align:center; /*centraliza o texto*/
+    font-style: italic;
+
+}
+
+#res{
+    padding: 15px;
+}
+

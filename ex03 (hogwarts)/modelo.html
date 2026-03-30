@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casas Hogwarts</title>
+    <link rel="stylesheet" href="estilo.css"> <!--chamada do CSS externo-->
+</head>
+<body>
+
+    <header>
+        <p> Descubra qual sua casa em Hogwarts</p>
+
+    </header>
+
+
+    <section>
+        <div>
+        <p>Ano de nascimento: 
+                <input type="number" name="ano" id="ano" min="0">
+        </p>
+        </div>
+
+
+        <div id="form">
+        <p>Você se considera uma pessoa: </p>
+            <input type="radio" name="hous" id="grif" checked>
+            <label for="grif">Ousada e determinada</label>
+
+            <input type="radio" name="hous" id="lufa">
+            <label for="lufa">Leal e bondosa </label>
+         <br>
+
+            <input type="radio" name="hous" id="corv">
+            <label for="corv">Independente e criativa</label>
+
+            <input type="radio" name="hous" id="sons">
+            <label for="sons">Ambiociosa e astuta</label>
+         <p>
+            <input type="button" value="Verificar" onclick="test()">
+         </p>
+        </div>
+
+        <div id="res">
+            Preencha os dados acima para ver qual a sua casa em Hogwarts!
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 7Bits Matheus Marcelo</p>
+
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
+</html>

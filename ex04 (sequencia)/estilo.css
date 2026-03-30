@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(80, 75, 73);
+    font: normal 15pt Arial;
+
+}
+header{
+    color: white;
+    text-align:center; /*centraliza o texto*/
+
+
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;  /*configuração da borda*/
+    padding: 15px;        /*tamanho da Div*/
+    width: 800px;
+    margin: auto;    /*centraliza no meio*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555); /*sombras na caixa, largura, altura*/
+
+
+}
+
+footer{
+    color: white;
+    text-align:center; /*centraliza o texto*/
+    font-style: italic;
+
+}
+
+#calc{
+    text-align: center;
+}
+
+#res{
+    text-align: center;
+}
